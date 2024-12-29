@@ -1,0 +1,27 @@
+What is a class?:
+In object-oriented programming (OOP), a class is a blueprint or template for creating objects.
+Objects are instances of classes, and each class defines a set of attributes (data members) 
+and methods (functions or procedures) that the objects created from that class will possess.
+The attributes represent the characteristics or properties of the object, while the methods define the behaviors or actions that the object can perform.
+--------------------------
+Class Name:
+The name of the class is typically written in the top compartment of the class box and is centered and bold.
+
+Attributes:
+Attributes, also known as properties or fields, represent the data members of the class. They are listed in the second compartment of the class box and often include the visibility (e.g., public, private) and the data type of each attribute.
+
+Methods:
+Methods, also known as functions or operations, represent the behavior or functionality of the class. They are listed in the third compartment of the class box and include the visibility (e.g., public, private), return type, and parameters of each method.
+
+Visibility Notation:
+Visibility notations indicate the access level of attributes and methods. Common visibility notations include:
+
++ for public (visible to all classes)
+- for private (visible only within the class)
+# for protected (visible to subclasses)
+~ for package or default visibility (visible to classes in the same package).
+-----------------------------
+constructor : 
+A constructor allows you to initialize an object's properties upon creation of the object.
+
+If you create a __construct() function, PHP will automatically call this function when you create an object from a class.
